@@ -8,4 +8,5 @@ public class FamilyAssistantRestApplication {
     public static void main(String[] args) {
         SpringApplication.run(FamilyAssistantRestApplication.class, args);
     }
+    //http://localhost:8080/swagger-ui/index.html
 }
