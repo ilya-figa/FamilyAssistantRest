@@ -9,15 +9,19 @@ import lombok.ToString;
  */
 
 @Entity
-@Table(schema = "family_assistant_schema", name = "importance")
+@Table(schema = "family_assistant_schema", name = "recipe_book")
 @Getter
 @Setter
 @ToString
-public class Importance {
+public class RecipeBook {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "importance_id", nullable = false)
+    @Column(name = "recipe_id", nullable = false)
     public Long id;
-    @Column(name = "importance_name")
+    @Column(name = "recipe_name")
     public String name;
+    @Column(name = "products_json")
+    public String productsJson;
+    @Column(name = "recipe")
+    public String recipe;
 }

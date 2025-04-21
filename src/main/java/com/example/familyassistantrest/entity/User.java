@@ -4,20 +4,22 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+/**
+ * @author Buyevich_IG
+ */
+
 @Entity
-@Table(schema = "family_assistant_schema", name = "animal")
+@Table(schema = "family_assistant_schema", name = "user")
 @Getter
 @Setter
 @ToString
-public class Animal {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", nullable = false)
+    @Column(name = "user_id", nullable = false)
     public Long id;
-
-    @Column(name = "name")
+    @Column(name = "role_id")
+    public Long roleId;
+    @Column(name = "user_name")
     public String name;
-
-    @Column(name = "type")
-    public String type;
 }

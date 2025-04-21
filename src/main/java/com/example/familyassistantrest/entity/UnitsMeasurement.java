@@ -4,20 +4,19 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-/**
- * @author Buyevich_IG
- */
 
 @Entity
-@Table(schema = "family_assistant_schema", name = "importance")
+@Table(schema = "family_assistant_schema", name = "units_measurement")
 @Getter
 @Setter
 @ToString
-public class Importance {
+public class UnitsMeasurement {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "importance_id", nullable = false)
+    @Column(name = "units_measurement_id", nullable = false)
     public Long id;
-    @Column(name = "importance_name")
+    @Column(name = "units_measurement_name")
     public String name;
+    @Column(name = "units_measurement_short_name")
+    public String shortName;
 }
