@@ -1,14 +1,10 @@
 package com.example.familyassistantrest.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
 import lombok.ToString;
 
 @Entity
 @Table(schema = "family_assistant_schema", name = "shopping_cart")
-@Getter
-@Setter
 @ToString
 public class ShoppingCart {
     @Id
@@ -19,6 +15,38 @@ public class ShoppingCart {
     public String name;
     @Column(name = "product_quantity")
     public String quantity;
-    @Column(name = "units_measurement_id")
+    @Column(name = "units_measurement_id", nullable = false)
     public Long unitsMeasurementId;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(String quantity) {
+        this.quantity = quantity;
+    }
+
+    public Long getUnitsMeasurementId() {
+        return unitsMeasurementId;
+    }
+
+    public void setUnitsMeasurementId(Long unitsMeasurementId) {
+        this.unitsMeasurementId = unitsMeasurementId;
+    }
 }

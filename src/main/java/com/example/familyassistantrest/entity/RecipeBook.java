@@ -1,8 +1,6 @@
 package com.example.familyassistantrest.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
 import lombok.ToString;
 /**
  * @author Buyevich_IG
@@ -10,8 +8,6 @@ import lombok.ToString;
 
 @Entity
 @Table(schema = "family_assistant_schema", name = "recipe_book")
-@Getter
-@Setter
 @ToString
 public class RecipeBook {
     @Id
@@ -20,8 +16,40 @@ public class RecipeBook {
     public Long id;
     @Column(name = "recipe_name")
     public String name;
-    @Column(name = "products_json")
-    public String productsJson;
-    @Column(name = "recipe")
-    public String recipe;
+    @Column(name = "products_xml")
+    public String productsXml;
+    @Column(name = "steps_xml")
+    public String stepsXml;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getProductsXml() {
+        return productsXml;
+    }
+
+    public void setProductsXml(String productsXml) {
+        this.productsXml = productsXml;
+    }
+
+    public String getStepsXml() {
+        return stepsXml;
+    }
+
+    public void setStepsXml(String stepsXml) {
+        this.stepsXml = stepsXml;
+    }
 }

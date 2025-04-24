@@ -1,0 +1,101 @@
+<recipe>
+    <name>Томатный суп с курицей и стручковой фасолью</name>
+    <product>
+        <name>Куриное филе</name>
+        <quantity>400</quantity>
+        <unitsMeasurement>1</unitsMeasurement>
+    </product>
+    <product>
+        <name>Фасоль стручковая замороженная</name>
+        <quantity>200</quantity>
+        <unitsMeasurement>1</unitsMeasurement>
+    </product>
+    <product>
+        <name>Помидоры консервированные в собственном соку</name>
+        <quantity>800</quantity>
+        <unitsMeasurement>1</unitsMeasurement>
+    </product>
+    <product>
+        <name>Чеснок</name>
+        <quantity>20</quantity>
+        <unitsMeasurement>1</unitsMeasurement>
+    </product>
+    <product>
+        <name>Лук репчатый</name>
+        <quantity>200</quantity>
+        <unitsMeasurement>1</unitsMeasurement>
+    </product>
+    <product>
+        <name>Базилик (сухой)</name>
+        <quantity>2</quantity>
+        <unitsMeasurement>1</unitsMeasurement>
+    </product>
+    <product>
+        <name>Орегано (сухой)</name>
+        <quantity>2</quantity>
+        <unitsMeasurement>1</unitsMeasurement>
+    </product>
+    <product>
+        <name>Масло подсолнечное рафинированное</name>
+        <quantity>10</quantity>
+        <unitsMeasurement>5</unitsMeasurement>
+    </product>
+    <product>
+        <name>Соль (при необходимости)</name>
+        <quantity>5</quantity>
+        <unitsMeasurement>1</unitsMeasurement>
+    </product>
+    <product>
+        <name>Вода</name>
+        <quantity>1</quantity>
+        <unitsMeasurement>6</unitsMeasurement>
+    </product>
+    <steap>
+        <num>1</num>
+        <steap>Подготавливаем необходимые продукты.В летнее время можно использовать свежие травы вместо указанных в рецепте сухих. Добавлять их нужно в мелко нарубленном виде в самом конце варки супа.</steap>
+    </steap>
+    <steap>
+        <num>2</num>
+        <steap>Лук и чеснок очищаем и мелко нарезаем.</steap>
+    </steap>
+    <steap>
+        <num>3</num>
+        <steap>Куриное филе промываем, обсушиваем и нарезаем небольшими кусочками.</steap>
+    </steap>
+    <steap>
+        <num>4</num>
+        <steap>Помидоры вместе с соком протираем через сито.</steap>
+    </steap>
+    <steap>
+        <num>5</num>
+        <steap>Разогреваем в сковороде растительное масло, выкладываем лук и обжариваем до мягкости (около 5 минут).</steap>
+    </steap>
+    <steap>
+        <num>6</num>
+        <steap>Добавляем чеснок и обжариваем еще 1 минуту.</steap>
+    </steap>
+    <steap>
+        <num>7</num>
+        <steap>Выкладываем в сковороду к луку с чесноком куриное филе. Перемешивая, обжариваем до белого цвета курицы, в течение 3-4 минут.</steap>
+    </steap>
+    <steap>
+        <num>8</num>
+        <steap>Наливаем в кастрюлю 1 л воды и доводим до кипения.Выкладываем в кипящую воду куриное мясо с луком и чесноком.</steap>
+    </steap>
+    <steap>
+        <num>9</num>
+        <steap>Добавляем протёртые томаты и пряные травы. Пробуем на вкус. При необходимости солим по вкусу. Доводим до кипения, варим на медленном огне в течение 30 минут.</steap>
+    </steap>
+    <steap>
+        <num>10</num>
+        <steap>Затем добавляем фасоль и варим суп ещё 10 минут.</steap>
+    </steap>
+    <steap>
+        <num>11</num>
+        <steap>Томатный суп с курицей и стручковой фасолью</steap>
+    </steap>
+    <steap>
+        <num>12</num>
+        <steap>Разливаем суп по тарелкам и сразу же подаём к столу. Приятного аппетита!</steap>
+    </steap>
+</recipe>

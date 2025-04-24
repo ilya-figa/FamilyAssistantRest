@@ -15,7 +15,7 @@ public class TypeCase {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "type_case_id", nullable = false)
     public Long id;
-    @Column(name = "importance_id")
+    @Column(name = "importance_id", nullable = false)
     public Long importanceId;
     @Column(name = "type_case_name")
     public String name;
