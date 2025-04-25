@@ -1,4 +1,4 @@
-package com.example.familyassistantrest.controllers;
+package com.example.familyassistantrest.controllers.main;
 
 import com.example.familyassistantrest.entity.RecipeBook;
 import com.example.familyassistantrest.repository.RecipeBookRepository;
