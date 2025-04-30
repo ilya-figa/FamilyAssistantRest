@@ -1,8 +1,7 @@
 package com.example.familyassistantrest.controllers.main;
 
+import com.example.familyassistantrest.controllers.MainController;
 import com.example.familyassistantrest.entity.ShoppingCart;
-import com.example.familyassistantrest.repository.ShoppingCartRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,11 +13,7 @@ import java.util.Optional;
  */
 @RestController
 @RequestMapping("/cart")
-public class ShoppingCartController {
-
-    @Autowired
-    ShoppingCartRepository shoppingCartRepository;
-
+public class ShoppingCartController extends MainController {
     @GetMapping()
     public ResponseEntity<List<ShoppingCart>> getAll(){
         return ResponseEntity.ok(shoppingCartRepository.findAll());

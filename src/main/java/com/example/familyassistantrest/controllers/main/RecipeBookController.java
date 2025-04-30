@@ -1,11 +1,9 @@
 package com.example.familyassistantrest.controllers.main;
 
+import com.example.familyassistantrest.controllers.MainController;
 import com.example.familyassistantrest.entity.RecipeBook;
-import com.example.familyassistantrest.repository.RecipeBookRepository;
-import com.example.familyassistantrest.repository.ShoppingCartRepository;
 import com.example.familyassistantrest.utils.ParseXml;
 import com.example.familyassistantrest.utils.Util;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,12 +17,7 @@ import java.util.Optional;
  */
 @RestController
 @RequestMapping("/recipeBook")
-public class RecipeBookController {
-    @Autowired
-    RecipeBookRepository recipeBookRepository;
-    @Autowired
-    ShoppingCartRepository shoppingCartRepository;
-
+public class RecipeBookController extends MainController {
     @GetMapping()
     public ResponseEntity<List<RecipeBook>> getAll(){
         //TODO распарсить xml

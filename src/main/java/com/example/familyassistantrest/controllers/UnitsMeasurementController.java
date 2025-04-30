@@ -1,8 +1,6 @@
 package com.example.familyassistantrest.controllers;
 
 import com.example.familyassistantrest.entity.UnitsMeasurement;
-import com.example.familyassistantrest.repository.UnitsMeasurementRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,10 +12,7 @@ import java.util.Optional;
  */
 @RestController
 @RequestMapping("/unitsMeasurement")
-public class UnitsMeasurementController {
-    @Autowired
-    UnitsMeasurementRepository unitsMeasurementRepository;
-
+public class UnitsMeasurementController extends MainController{
     @GetMapping()
     public ResponseEntity<List<UnitsMeasurement>> getAll(){
         return ResponseEntity.ok(unitsMeasurementRepository.findAll());

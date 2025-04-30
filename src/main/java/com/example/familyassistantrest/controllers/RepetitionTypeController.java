@@ -1,8 +1,6 @@
 package com.example.familyassistantrest.controllers;
 
 import com.example.familyassistantrest.entity.RepetitionType;
-import com.example.familyassistantrest.repository.RepetitionTypeRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,10 +12,7 @@ import java.util.Optional;
  */
 @RestController
 @RequestMapping("/repetitionType")
-public class RepetitionTypeController {
-    @Autowired
-    RepetitionTypeRepository repetitionTypeRepository;
-
+public class RepetitionTypeController extends MainController{
     @GetMapping()
     public ResponseEntity<List<RepetitionType>> getAll(){
         return ResponseEntity.ok(repetitionTypeRepository.findAll());

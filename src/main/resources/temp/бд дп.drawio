@@ -4,33 +4,26 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lm29R8KMJcdYnlwVV_AK-1" target="lm29R8KMJcdYnlwVV_AK-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-1" value="Дела&lt;div&gt;1. id&lt;/div&gt;&lt;div&gt;2. id вида дела&lt;/div&gt;&lt;div&gt;3. дата-время&lt;/div&gt;&lt;div&gt;5. id пользователя&lt;/div&gt;&lt;div&gt;5. описание&lt;/div&gt;&lt;div&gt;6. id пользователя&lt;/div&gt;&lt;div&gt;7. дата и время создания&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="110" y="280" width="210" height="140" as="geometry" />
+        <mxCell id="lm29R8KMJcdYnlwVV_AK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="rn1zpIXw3F2HWN3atjtw-2" target="lm29R8KMJcdYnlwVV_AK-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="350" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lm29R8KMJcdYnlwVV_AK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lm29R8KMJcdYnlwVV_AK-2" target="lm29R8KMJcdYnlwVV_AK-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lm29R8KMJcdYnlwVV_AK-2" target="lm29R8KMJcdYnlwVV_AK-20" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="340" y="150" />
-              <mxPoint x="340" y="495" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lm29R8KMJcdYnlwVV_AK-2" value="Важность&lt;div&gt;1. id&lt;br&gt;2. Важность(Важно, средне, мало)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="110" y="120" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lm29R8KMJcdYnlwVV_AK-3" target="lm29R8KMJcdYnlwVV_AK-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="lm29R8KMJcdYnlwVV_AK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lm29R8KMJcdYnlwVV_AK-3" target="rn1zpIXw3F2HWN3atjtw-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lm29R8KMJcdYnlwVV_AK-3" value="Виды дел&lt;div&gt;1. id&lt;/div&gt;&lt;div&gt;2. id важности дела&lt;/div&gt;&lt;div&gt;3. вид дела&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="110" y="200" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-7" value="1. Книга рецептов&#xa;2. Добавить в корзину покупки&#xa;3. Планировщик задач на сегодня для каждого члена семьи&#xa;4. Напоминалки дат, только для семьи&#xa;5. Расписание детей&#xa;6. Напоминалки дат, для всех остальных&#xa;7. Уход за животными" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="lm29R8KMJcdYnlwVV_AK-7" value="1. Книга рецептов&#xa;2. Добавить в корзину покупки&#xa;3. Планировщик задач на сегодня для каждого члена семьи&#xa;4. Напоминалки дат, только для семьи&#xa;5. Расписание детей&#xa;6. Напоминалки дат, для всех остальных&#xa;7. Уход за животными" style="text;whiteSpace=wrap;labelBackgroundColor=none;fontColor=light-dark(#000000,#EDEDED);" parent="1" vertex="1">
           <mxGeometry x="160" y="-20" width="370" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lm29R8KMJcdYnlwVV_AK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="lm29R8KMJcdYnlwVV_AK-8" target="lm29R8KMJcdYnlwVV_AK-16" edge="1">
@@ -39,7 +32,7 @@
         <mxCell id="lm29R8KMJcdYnlwVV_AK-8" value="Книга рецептов&lt;div&gt;1. id&lt;/div&gt;&lt;div&gt;2. имя рецепта&lt;/div&gt;&lt;div&gt;3. json список продуктов&lt;br&gt;4. сам рецепт&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="360" y="200" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-9" value="Корзина&lt;div&gt;1. id&lt;/div&gt;&lt;div&gt;2. товар&lt;/div&gt;&lt;div&gt;3. количество&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="lm29R8KMJcdYnlwVV_AK-9" value="Корзина&lt;div&gt;1. id&lt;/div&gt;&lt;div&gt;2. товар&lt;/div&gt;&lt;div&gt;3. количество&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-130" y="120" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lm29R8KMJcdYnlwVV_AK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lm29R8KMJcdYnlwVV_AK-12" target="lm29R8KMJcdYnlwVV_AK-9" edge="1">
@@ -54,25 +47,22 @@
         <mxCell id="lm29R8KMJcdYnlwVV_AK-16" value="Нажать добавить продукты в корзину" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="110" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-20" value="Напоминалка даты&lt;br&gt;1. id&lt;div&gt;2. id важности&lt;/div&gt;&lt;div&gt;&lt;div&gt;2. дата&lt;/div&gt;&lt;div&gt;3. событие&lt;/div&gt;&lt;div&gt;4. описание&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="110" y="450" width="210" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lm29R8KMJcdYnlwVV_AK-22" target="lm29R8KMJcdYnlwVV_AK-1" edge="1">
+        <mxCell id="V0acgE1TpCGl113v5loc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lm29R8KMJcdYnlwVV_AK-22" target="rn1zpIXw3F2HWN3atjtw-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-22" value="3. Планировщик дел на сегодня для каждого члена семьи(дело и для кого оно)&#xa;5. Расписание детей(для кого Например Саша -&gt; кружок в 12 00)&#xa;7. Уход за животными(дело завести на стрижку)" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="380" y="320" width="370" height="120" as="geometry" />
+        <mxCell id="lm29R8KMJcdYnlwVV_AK-22" value="3. Планировщик дел на сегодня для каждого члена семьи(дело и для кого оно)&#xa;5. Расписание детей(для кого Например Саша -&gt; кружок в 12 00)&#xa;7. Уход за животными(дело завести на стрижку)" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="540" y="390" width="370" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-23" value="4. Напоминалки дат, только для семьи&#xa;6. Напоминалки дат, для всех остальных&#xa;&#xa;продумать момент на счёт повторений" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="380" y="465" width="370" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.989;entryY=0.626;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lm29R8KMJcdYnlwVV_AK-23" target="lm29R8KMJcdYnlwVV_AK-20" edge="1">
+        <mxCell id="V0acgE1TpCGl113v5loc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="lm29R8KMJcdYnlwVV_AK-23" target="rn1zpIXw3F2HWN3atjtw-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm29R8KMJcdYnlwVV_AK-23" value="4. Напоминалки дат, только для семьи&#xa;6. Напоминалки дат, для всех остальных&#xa;&#xa;продумать момент на счёт повторений" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="580" y="490" width="370" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lm29R8KMJcdYnlwVV_AK-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lm29R8KMJcdYnlwVV_AK-27" target="lm29R8KMJcdYnlwVV_AK-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-27" value="2. Добавить в корзину покупки" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="lm29R8KMJcdYnlwVV_AK-27" value="2. Добавить в корзину покупки" style="text;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-360" y="130" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lm29R8KMJcdYnlwVV_AK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lm29R8KMJcdYnlwVV_AK-29" target="lm29R8KMJcdYnlwVV_AK-16" edge="1">
@@ -82,15 +72,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-29" value="1. Книга рецептов" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="590" y="120" width="170" height="30" as="geometry" />
+        <mxCell id="lm29R8KMJcdYnlwVV_AK-29" value="1. Книга рецептов" style="text;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="640" y="130" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lm29R8KMJcdYnlwVV_AK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="lm29R8KMJcdYnlwVV_AK-31" target="lm29R8KMJcdYnlwVV_AK-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="215" y="440" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="V0acgE1TpCGl113v5loc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lm29R8KMJcdYnlwVV_AK-31" target="rn1zpIXw3F2HWN3atjtw-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lm29R8KMJcdYnlwVV_AK-31" value="Пользователи&lt;div&gt;1id&lt;/div&gt;&lt;div&gt;2. id роли&lt;br&gt;3. имя&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-130" y="400" width="210" height="70" as="geometry" />
@@ -110,14 +96,14 @@
         <mxCell id="7WKAR1FsFvdeox_WHZgT-2" value="&lt;div&gt;Виды измерения&lt;/div&gt;&lt;div&gt;1. ид&lt;/div&gt;&lt;div&gt;2. имя&lt;/div&gt;&lt;div&gt;г кг см м мл л&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-190" y="-80" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7WKAR1FsFvdeox_WHZgT-6" value="в json будет лежать&#xa;" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="430" y="-40" width="170" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="7WKAR1FsFvdeox_WHZgT-9" value="Продукт&lt;div&gt;1. название&lt;/div&gt;&lt;div&gt;2. количество&lt;/div&gt;&lt;div&gt;3. id веса&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="30" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rn1zpIXw3F2HWN3atjtw-2" value="Задачи&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;ид&lt;br&gt;ид вида дела&lt;div&gt;ид пользователя исполнителя&lt;/div&gt;&lt;div&gt;ид пользователя над кем&lt;/div&gt;&lt;div&gt;название&lt;/div&gt;&lt;div&gt;&lt;div&gt;с дата время&lt;/div&gt;&lt;div&gt;до дата время не обязатально, если нет, то будет на целый день&lt;/div&gt;&lt;/div&gt;&lt;div&gt;описание&lt;/div&gt;&lt;div&gt;ид пользователя создатель&lt;/div&gt;&lt;div&gt;дата и время создания&lt;/div&gt;&lt;div&gt;повторения&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="570" width="400" height="250" as="geometry" />
+        <mxCell id="rn1zpIXw3F2HWN3atjtw-2" value="Задачи&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;ид&lt;br&gt;ид вида дела&lt;div&gt;ид пользователя исполнителя&lt;/div&gt;&lt;div&gt;ид пользователя над кем&lt;/div&gt;&lt;div&gt;название&lt;/div&gt;&lt;div&gt;дата время события&lt;/div&gt;&lt;div&gt;описание&lt;/div&gt;&lt;div&gt;ид пользователя создатель&lt;/div&gt;&lt;div&gt;дата и время создания&lt;/div&gt;&lt;div&gt;повторения&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="60" y="490" width="400" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="x48-9kaTQGTrL_npt3wm-1" value="Стек ДП:&#xa;1. Java +&#xa;2. Spring Boot +&#xa;3. Spring Data JPA (Hibernate) +&#xa;4. Postgres, H2 +&#xa;5. REST API +&#xa;6. Springdoc(Swagger) +&#xa;7. Flyway or Liquibase&#xa;8. Docker&#xa;9. Docker Compose&#xa;10. Spring Security*&#xa;11. CI/CD (Github Actions)*&#xa;12. JUnit 5, Mockito*" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-270" width="200" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

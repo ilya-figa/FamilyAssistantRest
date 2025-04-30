@@ -1,8 +1,6 @@
 package com.example.familyassistantrest.controllers;
 
 import com.example.familyassistantrest.entity.Importance;
-import com.example.familyassistantrest.repository.ImportanceRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,10 +12,7 @@ import java.util.Optional;
  */
 @RestController
 @RequestMapping("/importance")
-public class ImportanceController {
-    @Autowired
-    ImportanceRepository importanceRepository;
-
+public class ImportanceController extends MainController{
     @GetMapping()
     public ResponseEntity<List<Importance>> getAll(){
         return ResponseEntity.ok(importanceRepository.findAll());

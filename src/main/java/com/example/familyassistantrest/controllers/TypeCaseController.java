@@ -1,8 +1,6 @@
 package com.example.familyassistantrest.controllers;
 
 import com.example.familyassistantrest.entity.TypeCase;
-import com.example.familyassistantrest.repository.TypeCaseRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,10 +12,7 @@ import java.util.Optional;
  */
 @RestController
 @RequestMapping("/typeCase")
-public class TypeCaseController {
-    @Autowired
-    TypeCaseRepository typeCaseRepository;
-
+public class TypeCaseController extends MainController{
     @GetMapping()
     public ResponseEntity<List<TypeCase>> getAll(){
         return ResponseEntity.ok(typeCaseRepository.findAll());

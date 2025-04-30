@@ -3,6 +3,8 @@ package com.example.familyassistantrest.repository;
 import com.example.familyassistantrest.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository<User,Long> {
+import java.util.List;
 
+public interface UserRepository extends JpaRepository<User,Long> {
+    List<User> findAllByRoleId(Long roleId);
 }

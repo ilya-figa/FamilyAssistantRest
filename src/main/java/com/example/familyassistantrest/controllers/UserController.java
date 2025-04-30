@@ -1,8 +1,6 @@
 package com.example.familyassistantrest.controllers;
 
 import com.example.familyassistantrest.entity.User;
-import com.example.familyassistantrest.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,10 +12,7 @@ import java.util.Optional;
  */
 @RestController
 @RequestMapping("/user")
-public class UserController {
-    @Autowired
-    UserRepository userRepository;
-
+public class UserController extends MainController{
     @GetMapping()
     public ResponseEntity<List<User>> getAll(){
         return ResponseEntity.ok(userRepository.findAll());
