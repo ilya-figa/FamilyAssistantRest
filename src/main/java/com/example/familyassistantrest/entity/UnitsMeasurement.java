@@ -6,7 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity
-@Table(schema = "family_assistant_schema", name = "units_measurement")
+@Table(name = "units_measurement")
 @Getter
 @Setter
 @ToString
@@ -19,4 +19,13 @@ public class UnitsMeasurement {
     public String name;
     @Column(name = "units_measurement_short_name")
     public String shortName;
+
+    public UnitsMeasurement(Long id, String name, String shortName) {
+        this.id = id;
+        this.name = name;
+        this.shortName = shortName;
+    }
+
+    public UnitsMeasurement() {
+    }
 }

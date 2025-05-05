@@ -6,7 +6,7 @@ import jakarta.persistence.*;
  */
 
 @Entity
-@Table(schema = "family_assistant_schema", name = "user")
+@Table(name = "user")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -16,6 +16,15 @@ public class User {
     public Long roleId;
     @Column(name = "user_name")
     public String name;
+
+    public User() {
+    }
+
+    public User(Long id, Long roleId, String name) {
+        this.id = id;
+        this.roleId = roleId;
+        this.name = name;
+    }
 
     public Long getId() {
         return id;

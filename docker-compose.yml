@@ -1,0 +1,27 @@
+version: '3.1'
+
+volumes:
+  pg_family_assistant:
+
+services:
+  family_assistant:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=family_assistant
+    volumes:
+      - pg_family_assistant:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+  app:
+    restart: always
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - family_assistant
+    environment:
+      SPRING_DATASOURCE_URL: 'jdbc:postgresql://family_assistant:5433/family_assistant'
+      JAVA_OPTS: '-Xmx512m'

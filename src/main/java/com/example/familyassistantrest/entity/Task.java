@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
  */
 
 @Entity
-@Table(schema = "family_assistant_schema", name = "tasks")
+@Table(name = "tasks")
 public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -38,7 +38,21 @@ public class Task {
     @Column(name = "repetition_type_id", nullable = false)
     public Long repetitionTypeId;
 
+    public Task(Long id, Long typeCaseId, Long executorUserId, Long subjectUserId, String name, LocalDateTime eventDate, Long creatorUserId, LocalDate createDate, String description, Long repetitionTypeId) {
+        this.id = id;
+        this.typeCaseId = typeCaseId;
+        this.executorUserId = executorUserId;
+        this.subjectUserId = subjectUserId;
+        this.name = name;
+        this.eventDate = eventDate;
+        this.creatorUserId = creatorUserId;
+        this.createDate = createDate;
+        this.description = description;
+        this.repetitionTypeId = repetitionTypeId;
+    }
 
+    public Task() {
+    }
     public Long getId() {
         return id;
     }

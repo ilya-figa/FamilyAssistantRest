@@ -10,7 +10,7 @@ import lombok.ToString;
  */
 
 @Entity
-@Table(schema = "family_assistant_schema", name = "repetitions_type")
+@Table(name = "repetitions_type")
 @Getter
 @Setter
 @ToString
@@ -21,4 +21,10 @@ public class RepetitionType {
     public Long id;
     @Column(name = "repetition_type")
     public String type;
+
+    public RepetitionType() {}
+    public RepetitionType(Long id, String type) {
+        this.id = id;
+        this.type = type;
+    }
 }

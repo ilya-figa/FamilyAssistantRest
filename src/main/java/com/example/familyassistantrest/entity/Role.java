@@ -9,7 +9,7 @@ import lombok.ToString;
  */
 
 @Entity
-@Table(schema = "family_assistant_schema", name = "role")
+@Table(name = "role")
 @Getter
 @Setter
 @ToString
@@ -20,4 +20,11 @@ public class Role {
     public Long id;
     @Column(name = "role_type")
     public String roleType;
+
+    public Role() {
+    }
+    public Role(Long id, String roleType) {
+        this.id = id;
+        this.roleType = roleType;
+    }
 }

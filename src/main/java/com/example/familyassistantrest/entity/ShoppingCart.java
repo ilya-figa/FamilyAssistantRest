@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.ToString;
 
 @Entity
-@Table(schema = "family_assistant_schema", name = "shopping_cart")
+@Table(name = "shopping_cart")
 @ToString
 public class ShoppingCart {
     @Id
@@ -17,6 +17,15 @@ public class ShoppingCart {
     public String quantity;
     @Column(name = "units_measurement_id", nullable = false)
     public Long unitsMeasurementId;
+
+    public ShoppingCart() {
+    }
+    public ShoppingCart(Long id, String name, String quantity, Long unitsMeasurementId) {
+        this.id = id;
+        this.name = name;
+        this.quantity = quantity;
+        this.unitsMeasurementId = unitsMeasurementId;
+    }
 
     public Long getId() {
         return id;

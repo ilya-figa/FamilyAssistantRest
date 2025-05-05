@@ -7,7 +7,7 @@ import lombok.ToString;
  */
 
 @Entity
-@Table(schema = "family_assistant_schema", name = "recipe_book")
+@Table(name = "recipe_book")
 @ToString
 public class RecipeBook {
     @Id
@@ -20,6 +20,14 @@ public class RecipeBook {
     public String productsXml;
     @Column(name = "steps_xml")
     public String stepsXml;
+
+    public RecipeBook() {}
+    public RecipeBook(Long id, String name, String productsXml, String stepsXml) {
+        this.id = id;
+        this.name = name;
+        this.productsXml = productsXml;
+        this.stepsXml = stepsXml;
+    }
 
     public Long getId() {
         return id;
